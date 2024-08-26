@@ -27,9 +27,9 @@
 
 <div class="container mt-5" >
 
-    <table class="table table-hover justify-content-center">
+    <table class="table table-hover justify-content-center ">
 
-            <tr >
+            <tr class ="table-primary" onclick="javascript:a();">
                 <td> 날짜 </td>
                 <td> 제목 </td>
                 <td> 글쓴이 </td>
@@ -37,7 +37,7 @@
                 
             </tr>
 
-            <tr>
+            <tr  onclick="javascript:a();" class ="cursor:pointer" >
                 <td class ="hover"> 2000.01.01 </td>
                 <td> 제목 </td>
                 <td> 글쓴이 </td>
@@ -46,28 +46,28 @@
             </tr>
 
 
-            <tr>
+            <tr  onclick="javascript:a();"  class ="cursor:pointer" >
+                <td class ="hover cursor:pointer"> 2000.01.01 </td>
+                <td> 제목 </td>
+                <td> 글쓴이 </td>
+                <td> 조회수 </td>
+                
+            </tr>
+            <tr  onclick="javascript:a();"  class ="cursor:pointer" >
                 <td class ="hover"> 2000.01.01 </td>
                 <td> 제목 </td>
                 <td> 글쓴이 </td>
                 <td> 조회수 </td>
                 
             </tr>
-            <tr>
+            <tr  onclick="javascript:a();"  class ="cursor:pointer" >
                 <td class ="hover"> 2000.01.01 </td>
                 <td> 제목 </td>
                 <td> 글쓴이 </td>
                 <td> 조회수 </td>
                 
             </tr>
-            <tr>
-                <td class ="hover"> 2000.01.01 </td>
-                <td> 제목 </td>
-                <td> 글쓴이 </td>
-                <td> 조회수 </td>
-                
-            </tr>
-            <tr>
+            <tr onclick="javascript:a();"  class ="cursor:pointer" >
                 <td class ="hover"> 2000.01.01 </td>
                 <td> 제목 </td>
                 <td> 글쓴이 </td>
@@ -79,13 +79,17 @@
 
     </table>
 
-    <ul class="pagination d-flex justify-content-center">
+    <ul class="pagination d-flex justify-content-center pagination-lg">
+        
         <li class="page-item"><a class="page-link" href="javascript:a();">Previous</a></li>
         <li class="page-item"><a class="page-link active" href="#">1</a></li>
         <li class="page-item"><a class="page-link" href="#">2</a></li>
         <li class="page-item"><a class="page-link" href="#">3</a></li>
         <li class="page-item"><a class="page-link" href="#">Next</a></li>
     </ul>
+    <button class="btn btn-primary">  글쓰기  </button>
+    
+
 
 </div>    
 
